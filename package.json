@@ -1,0 +1,26 @@
+{
+  "name": "version-manager",
+  "version": "2.0.0",
+  "description": "O pacote npm \"version-manager\" é uma ferramenta desenvolvida internamente pela Eludico para ajudar no gerenciamento de versões de projetos. Com este script, os desenvolvedores podem facilmente atualizar a versão do projeto, escolhendo entre as opções patch, minor ou major, e o script atualiza automaticamente a versão no arquivo package.json. Além disso, ele oferece a opção de fazer um commit automático com uma mensagem personalizada, tornando o processo de atualização de versão e commit mais eficiente. Este pacote é exclusivo para uso interno da Eludico e é especialmente útil para projetos que exigem atualizações frequentes e precisam de um processo simplificado de gerenciamento de versão e commit.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/simplecyclestudios/version-manager.git"
+  },
+  "bin": {
+    "version-manager": "./index.js"
+  },
+  "author": "Daniel Tezolin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/simplecyclestudios/version-manager/issues"
+  },
+  "homepage": "https://bitbucket.org/simplecyclestudios/version-manager#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
